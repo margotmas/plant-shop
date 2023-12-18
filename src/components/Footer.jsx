@@ -1,14 +1,15 @@
+import "../styles/Footer.css"
 
 function Footer({ infos }) {
 
   return (
     <>
 
-      <div>
-        <ul>
-          <li>{infos.FirstName}</li>
+      <section className="BackgroundColorFooter">
+        <ul className="UlFooter">
+          <li className="LiFooter">{infos.FirstName}</li>
         </ul>
-      </div>
+      </section>
 
 
     </>
