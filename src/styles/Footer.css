@@ -1,9 +1,19 @@
 .BackgroundColorFooter {
 
     background-color: #76984b;
+    border-radius: 15px;
 
+}
+
+.BackgroundColorFooter>h2 {
+    margin: 1rem;
 }
 
 .UlFooter {
     list-style-type: none;
+
+}
+
+.LiFooter {
+    font-size: 1rem;
 }
