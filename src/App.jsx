@@ -3,6 +3,8 @@
 import Cards from './components/Cards'
 import plantsToSell from './data/plantsToSell'
 import Footer from './components/Footer';
+
+
 // import style from './styles/App.module.css'
 
 
@@ -34,10 +36,13 @@ function App() {
           image={plant.img}
         />
       ))}
-      <h2>développé par</h2>
-      {NameOfWorkers.map((NameOfWorker, index) => (
-        <Footer key={index} infos={NameOfWorker} />
-      ))}
+      <section className="BackgroundColorFooter">
+        <h2>Développé par:</h2>
+        {NameOfWorkers.map((NameOfWorker, index) => (
+          <Footer key={index} infos={NameOfWorker} />
+
+        ))}
+      </section>
 
 
     </>
