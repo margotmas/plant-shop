@@ -10,16 +10,16 @@ import Footer from './components/Footer';
 
 const NameOfWorkers = [
   {
-    FirstName: "Alexia",
+    FirstName: "Alexia🌻",
 
   },
   {
-    FirstName: 'Margot',
+    FirstName: 'Margot🌷',
 
   },
 
   {
-    FirstName: 'Mathieu',
+    FirstName: 'Mathieu🌱',
 
   },
 ]
