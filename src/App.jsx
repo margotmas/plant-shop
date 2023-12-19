@@ -2,10 +2,8 @@
 // import Header from ".components/Header"
 import Cards from './components/Cards'
 import plantsToSell from './data/plantsToSell'
+import style from './styles/App.module.css'
 import Footer from './components/Footer';
-
-
-// import style from './styles/App.module.css'
 
 
 const NameOfWorkers = [
@@ -28,6 +26,7 @@ const NameOfWorkers = [
 function App() {
   return (
     <>
+    <div className={style.card}>
       {plantsToSell.map((plant, index) => (
         <Cards
           key={index}
@@ -36,6 +35,7 @@ function App() {
           image={plant.img}
         />
       ))}
+      </div>
       <section className="BackgroundColorFooter">
         <h2>Développé par:</h2>
         {NameOfWorkers.map((NameOfWorker, index) => (
@@ -43,8 +43,6 @@ function App() {
 
         ))}
       </section>
-
-
     </>
   );
 }
