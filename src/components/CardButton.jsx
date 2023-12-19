@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 
 function CardButton({ setCartCount}) {
 
-// const cartCount = {cartCount}
+
 
 
     return (
