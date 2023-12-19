@@ -5,21 +5,23 @@
     display: flex;
     padding: .5rem;
 
+
 }
 
 .BackgroundColorFooter>h2 {
-    /* display: flex; */
     justify-content: center;
     width: 100%;
     margin: 0.2;
     padding: 0.2;
     font-size: .8rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+
 
 }
 
 .UlFooter {
     width: 100%;
-    list-style-type: none; 
+    list-style-type: none;
     padding: 0;
 }
 
@@ -27,4 +29,7 @@
     width: 100%;
     font-size: .8rem;
     text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+
 }

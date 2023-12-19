@@ -1,22 +1,24 @@
 .card {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 20px; 
-  }
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
 
- .cardImg {
-    border-radius: 30px 30px;
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-  } 
+.cardImg {
+  border-radius: 30px 30px;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
 
-  .cardContent {
-    text-align: center;
-  }  
+.cardContent {
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
 
-  .cardTitle {
-    font-size: 1rem;
-    color : #76984b;
-  }
+}
+
+.cardTitle {
+  font-size: 1rem;
+  color: #76984b;
+}

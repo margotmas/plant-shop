@@ -9,6 +9,7 @@ import { PanierContextProvider } from './store/panierContext';
 import style from './styles/App.module.css'
 import Footer from './components/Footer';
 
+
 const NameOfWorkers = [
   {
     FirstName: "Alexia🌻",
@@ -29,17 +30,18 @@ function App() {
   return (
 
     <PanierContextProvider>
-    <Header/>
+      <Header />
 
-    <div className={style.card}>
 
-      {plantsToSell.map((plant, index) => (
-        <Cards
-          key={index}
-          description={plant.desc}
-          title={plant.name}
-          image={plant.img}
-        />
+      <div className={style.card}>
+
+        {plantsToSell.map((plant, index) => (
+          <Cards
+            key={index}
+            description={plant.desc}
+            title={plant.name}
+            image={plant.img}
+          />
         ))}
 
       </div>
@@ -50,7 +52,8 @@ function App() {
 
         ))}
       </section>
-      </PanierContextProvider>
+    </PanierContextProvider>
+
 
   );
 }
