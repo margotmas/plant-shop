@@ -1,10 +1,9 @@
-function BasketButton() {
+import style from "../styles/BasketButton.module.css"
 
-    return (
-      <>
-  
-      </>
-    )
-  }
-  
-  export default BasketButton
+import {createContext} from "react"
+
+export const BasketButton = ({
+  return <button className={style["basket-button"]}>panier</button>
+}
+
+export default BasketButton

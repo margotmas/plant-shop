@@ -4,6 +4,9 @@ import style from "../styles/Cards.module.css"
 // import CardButton from "./CardButton"
 
 function Cards({ description, title, image }) {
+
+// const {addItemToCart} = useContext(PanierContext)
+
   return (
     <div className={style.card}>
       <img src={image} alt={title} className={style.cardImg} />

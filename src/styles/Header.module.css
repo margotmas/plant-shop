@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    align-items: stretch;
+    background-color: #76984b;
+    color: white;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+    border-radius: 0 0 1.5rem 1.5rem;
+  }
+
