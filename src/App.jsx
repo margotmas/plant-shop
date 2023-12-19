@@ -40,10 +40,7 @@ function App() {
           title={plant.name}
           image={plant.img}
         />
-      ))}
-
-      
-  
+        ))}
 
       </div>
       <section className="BackgroundColorFooter">
