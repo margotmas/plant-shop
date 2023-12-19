@@ -1,5 +1,6 @@
 import "../styles/Footer.css"
 
+
 function Footer({ infos }) {
 
   return (
