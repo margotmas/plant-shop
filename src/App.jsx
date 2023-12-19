@@ -44,9 +44,6 @@ function App() {
           />
         ))}
 
-
-
-
       </div>
       <section className="BackgroundColorFooter">
         <h2>Développé par:</h2>
