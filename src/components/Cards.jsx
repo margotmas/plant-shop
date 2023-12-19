@@ -1,11 +1,13 @@
 import PropTypes from "prop-types"
 // import plantsToSell from "../data/plantsToSell"
 import style from "../styles/Cards.module.css"
-// import CardButton from "./CardButton"
+import CardButton from "./CardButton";
+//import { useContext } from "react";
+//import { PanierContext } from "../store/panierContext";
 
-function Cards({ description, title, image }) {
+function Cards({ setCartCount, description, title, image }) {
 
-// const {addItemToCart} = useContext(PanierContext)
+//const addItemToCart = useContext(PanierContext)
 
   return (
     <div className={style.card}>
@@ -14,6 +16,7 @@ function Cards({ description, title, image }) {
         <h2 className={style.cardTitle}>{title}</h2>
         <p className={style.cardDescription}>{description}</p>
       </div>
+      <CardButton setCartCount = {setCartCount}/>
     </div>
   );
 }
@@ -25,4 +28,5 @@ Cards.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   image: PropTypes.string,
+  setCartCount: PropTypes.func
 }
