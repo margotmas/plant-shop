@@ -3,6 +3,24 @@
 import Cards from './components/Cards'
 import plantsToSell from './data/plantsToSell'
 import style from './styles/App.module.css'
+import Footer from './components/Footer';
+
+
+const NameOfWorkers = [
+  {
+    FirstName: "Alexia🌻",
+
+  },
+  {
+    FirstName: 'Margot🌷',
+
+  },
+
+  {
+    FirstName: 'Mathieu🌱',
+
+  },
+]
 
 
 function App() {
@@ -18,8 +36,15 @@ function App() {
         />
       ))}
       </div>
+      <section className="BackgroundColorFooter">
+        <h2>Développé par:</h2>
+        {NameOfWorkers.map((NameOfWorker, index) => (
+          <Footer key={index} infos={NameOfWorker} />
+
+        ))}
+      </section>
     </>
   );
 }
-console.log(plantsToSell)
+
 export default App
