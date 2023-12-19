@@ -31,7 +31,6 @@ function App() {
     <PanierContextProvider>
     <Header/>
 
-    <>
     <div className={style.card}>
 
       {plantsToSell.map((plant, index) => (
@@ -43,7 +42,7 @@ function App() {
         />
       ))}
 
-      </PanierContextProvider>
+      
   
 
       </div>
@@ -54,7 +53,7 @@ function App() {
 
         ))}
       </section>
-    </>
+      </PanierContextProvider>
 
   );
 }
