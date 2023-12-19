@@ -1,32 +1,32 @@
 const plantsToSell = [
     {
-        name: "Bananier",
-        desc: "lorem ipsum",
+        name: "Livistona rotundifolia Strelitzia XL 'Nicolai'",
+        desc: "Famille : Stréltziacées, Plante tropicale",
         img: '/bananier.jpg',
     },
     {
-        name: "Bananier Est",
-        desc: "lorem ipsum",
+        name: "Bananier nain des Canaries ou Musa acuminata 'Dwarf Cavendish'",
+        desc: "Famille : Musaceae, Plante tropicale",
         img: '/bananierEst.jpg',
     },
     {
-        name: "Bananier Sud",
-        desc: "lorem ipsum",
+        name: "L'oiseau de paradis ou 'Strelitzia'",
+        desc: "Famille : Stréltziacées, Plante tropicale",
         img: '/bananierSud.jpg',
     },
     {
-        name: "Caladium",
-        desc: "lorem ipsum",
+        name: "Caladium Aaron",
+        desc: "Famille : Aracées, Plante néo-tropicale",
         img: '/caladium.jpg',
     },
     {
-        name: "Plante Grasse",
-        desc: "lorem ipsum",
+        name: "Echeveria",
+        desc: "Famille : Succulente, Plante tropicale",
         img: '/plantegrasse.jpg',
     },
     {
-        name: "Succulente",
-        desc: "lorem ipsum",
+        name: "Aloès",
+        desc: "Famille : Xanthorrhoeaceae, Plante tropicale",
         img: '/succulente.jpg',
     },
 

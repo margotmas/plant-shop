@@ -1,0 +1,30 @@
+.BackgroundColorFooter {
+
+    background-color: #76984b;
+    border-radius: 12px 12px 0px 0px;
+    display: flex;
+    padding: .5rem;
+
+}
+
+.BackgroundColorFooter>h2 {
+    /* display: flex; */
+    justify-content: center;
+    width: 100%;
+    margin: 0.2;
+    padding: 0.2;
+    font-size: .8rem;
+
+}
+
+.UlFooter {
+    width: 100%;
+    list-style-type: none; 
+    padding: 0;
+}
+
+.LiFooter {
+    width: 100%;
+    font-size: .8rem;
+    text-align: center;
+}

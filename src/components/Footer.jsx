@@ -1,10 +1,19 @@
-function Footer() {
+import "../styles/Footer.css"
 
-    return (
-      <>
-  
-      </>
-    )
-  }
-  
-  export default Footer
+function Footer({ infos }) {
+
+  return (
+    <>
+
+
+      <ul className="UlFooter">
+        <li className="LiFooter">{infos.FirstName}</li>
+      </ul>
+
+
+
+    </>
+  )
+}
+
+export default Footer
