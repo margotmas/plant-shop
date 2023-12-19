@@ -8,7 +8,6 @@ function Cards({ description, title, image }) {
   const toggleTextDisplay = () => {
     setDisplayText(!displayText)
   }
-// const {addItemToCart} = useContext(PanierContext)
 
   return (
     <div className={style.card} onClick={toggleTextDisplay}>
@@ -20,7 +19,6 @@ function Cards({ description, title, image }) {
     </div>
   );
 }
-
 
 export default Cards
 
