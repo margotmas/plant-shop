@@ -1,5 +1,13 @@
 import PropTypes from "prop-types"
 import style from "../styles/Cards.module.css"
+
+import CardButton from "./CardButton";
+
+
+function Cards({ setCartCount, description, title, image }) {
+
+
+
 import { useState } from "react";
 
 function Cards({ description, title, image }) {
@@ -8,7 +16,8 @@ function Cards({ description, title, image }) {
   const toggleTextDisplay = () => {
     setDisplayText(!displayText)
   }
-// const {addItemToCart} = useContext(PanierContext)
+
+
 
   return (
     <div className={style.card} onClick={toggleTextDisplay}>
@@ -17,6 +26,7 @@ function Cards({ description, title, image }) {
         <h2 className={style.cardTitle}>{title}</h2>
         {displayText && <p className={style.cardDescription}>{description}</p>}
       </div>
+      <CardButton setCartCount = {setCartCount}/>
     </div>
   );
 }
@@ -28,4 +38,5 @@ Cards.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   image: PropTypes.string,
+  setCartCount: PropTypes.func
 }
